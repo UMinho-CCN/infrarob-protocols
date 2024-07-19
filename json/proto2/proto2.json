@@ -33,6 +33,5 @@
             "altitude":1,
             "radius":100
         }
-    ],
-    "request": "config"
+    ]
 }
