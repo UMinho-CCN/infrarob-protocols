@@ -3,14 +3,6 @@
     "timestamp": 1000,
     "seqnumber": 123,
     "status": "ok",
-    "config": {
-        "datasinkIP": "192.168.1.32",
-        "datasinkPort": 8000,
-        "sendingMethod":{
-            "method": "poll",
-            "period": 1
-        }
-    },
     "objects":[{
         "objectID": "1a2b3c",
         "speed": 22,
@@ -32,7 +24,8 @@
             "eventID":1,
             "eventType": "speeding",
             "lat":987654321,
-            "long": 123456789
+            "long": 123456789,
+            "radius":100
         }
     ],
     "request": "config"
