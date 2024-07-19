@@ -17,14 +17,20 @@
         "length":100,
         "lengthConfidence":3,
         "lane":1,
-        "laneConfidence": 1
+        "laneConfidence": 1,
+        "altitude":1,
+        "altitudeConfidence":1,
+        "vehicleLength":1,
+        "vehicleLengthConfidence":1
     }],
     "events":[
         {
             "eventID":1,
             "eventType": "speeding",
+            "origin":"stationID",
             "lat":987654321,
             "long": 123456789,
+            "altitude":1,
             "radius":100
         }
     ],
